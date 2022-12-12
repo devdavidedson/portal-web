@@ -1,0 +1,248 @@
+@keyframes exemplo {
+    0% {color: #4D4645;}  
+    25% {color: #94998A;}  
+    50% {color: #325239;}  
+    75% {color: #8A8F99;}  
+    100% {color: #3D4350;}  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 12px;
+    background: #BFBFBF;
+}
+
+/* Parte de cima do conteúdo (Navegador) */
+
+.topo {
+    height: 30px;
+    background-image: linear-gradient(90deg, #423431, #665045, #5C4C3E);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.438);
+}
+
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height: 30px;
+    margin: auto;
+}
+
+.topoleft {
+    width: 50%;
+    height: 30px;
+    float: left;
+}
+
+.topoleft ul {
+    list-style: none;
+}
+
+.topoleft li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.topoleft li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.topodireito {
+    width: 50%;
+    height: 28px;
+    float: right;
+    text-align: right;
+    margin-top: 2px;
+}
+
+.topodireito img {
+    border: 0;
+    height: 26px;
+    width: 26px;
+    margin-right: 4px;
+}
+
+.topodireito input {
+    border: 0;
+    height: 26px;
+    width: 26px;
+    float: right;
+}
+
+.topodireito .topobusca{
+    border: 0;
+    height: 26px;
+    width: 110px;
+    outline: 0;
+}
+
+.topodireito a {
+    float: right;
+}
+
+.topo2 {
+    height: 95px;
+}
+
+.topo2int {
+    width: 100%;
+    max-width: 1040px;
+    height: 95px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 230px;
+    height: 90px;
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 5px;
+    animation-name: exemplo;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+.topo2 .banner {
+    display: flex;
+    font-size: 25px;
+    width: 650px;
+    height: 80px;
+    margin-top: 7px;
+    float: right;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+/* MenuDropDown */
+
+.menu {
+    background-color: #4F3E3A;
+    height: 40px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.438);
+
+}
+
+.menuint {
+    width: 100%;
+    max-width: 1040px;
+    height: 40px;
+    margin: auto;
+}
+
+.menuint ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuint li {
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+}
+
+.menuint li:hover .submenu {
+    display: block;
+}
+
+.menuint a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.submenu {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    display: none;
+    background-color: #4f3e3a;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.submenuitem {
+    width: 140px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    color: #FFF;
+}
+
+.submenuitem:hover {
+    background-color: #bf958c;
+    width: 100%;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.menuint li img {
+    width: 10px;
+    border: 0;
+}
+
+/* Slide e Noticias */
+
+.ultimasnoticias {
+    height: 50px;
+}
+
+.ultimasnoticiasint {
+    width: 100%;
+    max-width: 1040px;
+    height: 50px;
+    margin: auto;
+}
+
+.ultnoticiasarea {
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.ultnoticiastitulo {
+    background-color: #62919C;
+    color: #FFF;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.ultnoticiasnoticia a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+}
+.ultnoticiasnoticia {
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    padding-left: 5px;
+}
