@@ -304,14 +304,57 @@ body {
     height: 335px;
     background-color: #DDD;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .slideshowarea {
     width: 100000px;
     height: 335px;
+    transition: all 0.8s;
 }
 
 .slide {
     height: 335px;
     float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.slideinfo {
+    height: 70px;
+    background-image: url('../images/slideshow_bg.png');
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+
+.slideinfo_titulo {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.slideinfo_subtitulo {
+    font-size: 13px;
+    color: #FFF;
+    padding-left: 20px;
+}
+
+.sliderbolinhas {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.bolinha {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 50%;
 }
