@@ -38,10 +38,11 @@
     </div>
     <div class="menu">
         <div class="menuint">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Economia</a></li>
-                <li><a href="">Entreterimento</a>
+            <img src="assets/images/menu.png" alt="image menu mobile" width="40" height="40" class="menumobile" onclick="toggleMenu()">
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#" onclick="toggleSubMenu()">Entreterimento</a>
                     <img src="assets/images/dropdown-white.png" alt="DropDownArrow">
                     <div class="submenu">
                         <div class="submenuitem">Sub-menu 1</div>
@@ -51,7 +52,7 @@
                         <div class="submenuitem">Sub-menu 5</div>
                     </div>
                 </li>
-                <li><a href="">Esportes</a>
+                <li><a href="#" onclick="toggleSubMenu()">Esportes</a>
                     <img src="assets/images/dropdown-white.png" alt="DropDownArrow">
                     <div class="submenu">
                         <div class="submenuitem">Sub-menu 1</div>
@@ -61,8 +62,8 @@
                         <div class="submenuitem">Sub-menu 5</div>
                     </div>
                 </li>
-                <li><a href="">Geral</a></li>
-                <li><a href="">Noticias</a>
+                <li><a href="#">Geral</a></li>
+                <li><a href="#" onclick="toggleSubMenu()">Noticias</a>
                     <img src="assets/images/dropdown-white.png" alt="DropDownArrow">
                     <div class="submenu">
                         <div class="submenuitem">Sub-menu 1</div>

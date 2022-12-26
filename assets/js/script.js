@@ -36,3 +36,14 @@ function toggleMenu() {
 	}
 
 }
+function toggleSubMenu() {
+
+	var submenu = document.getElementsByClassName("submenu");
+
+	if (submenu.style.display == 'none' || submenu.style.display == '') {
+		submenu.style.display = "block";
+	} else {
+		submenu.style.display = "none";
+	}
+
+}
